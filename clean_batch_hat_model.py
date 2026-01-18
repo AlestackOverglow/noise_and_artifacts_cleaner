@@ -32,9 +32,9 @@ def download_weights(url, save_path):
 def setup_model(device):
     # === НАСТРОЙКИ МОДЕЛИ ===
     # Используем HAT x4 (Standard SR)
-    model_name = 'HAT_SRx2_ImageNet-pretrain.pth'
+    model_name = 'HAT_SRx2.pth'
     # Ссылка на официальный релиз
-    model_url = f'https://github.com/XPixelGroup/HAT/releases/download/v1.0/{model_name}'
+    model_url = 'https://drive.google.com/uc?export=download&id=1M2HZD6i9ZNpsJR-dKKBjlzL_AXntCvGR'
     
     download_weights(model_url, model_name)
 
